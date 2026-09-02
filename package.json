@@ -1,0 +1,37 @@
+{
+  "name": "adhithya-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website of Gunti Adhithya - AI/ML & Data Science Enthusiast | Full Stack Developer",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8000 -c-1",
+    "dev": "http-server -p 8000 -c-1 --cors",
+    "build": "echo 'No build step needed for static portfolio'",
+    "deploy": "echo 'Deploy using Vercel, Netlify, or GitHub Pages'"
+  },
+  "keywords": [
+    "portfolio",
+    "AI",
+    "ML",
+    "data-science",
+    "full-stack",
+    "developer",
+    "machine-learning",
+    "python",
+    "react",
+    "nodejs"
+  ],
+  "author": "Gunti Adhithya",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/adhithya-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/adhithya-portfolio/issues"
+  },
+  "homepage": "https://yourusername.github.io/adhithya-portfolio"
+}

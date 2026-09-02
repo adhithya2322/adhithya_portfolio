@@ -1,0 +1,431 @@
+/* =====================
+   Responsive Design
+   ===================== */
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .subsection-title {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Navigation */
+    .nav-menu {
+        gap: 1rem;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+    }
+
+    /* Hero */
+    .hero {
+        min-height: auto;
+        padding: 3rem 0;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    /* About */
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .about-stats {
+        flex-direction: row;
+    }
+
+    .stat-card {
+        flex: 1;
+    }
+
+    /* Skills */
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    /* Projects */
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card {
+        padding: 1.5rem;
+    }
+
+    /* Education */
+    .education-list {
+        gap: 1rem;
+    }
+
+    .education-item {
+        padding: 1rem;
+    }
+
+    .education-header {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .cgpa {
+        width: fit-content;
+    }
+
+    .certifications-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Achievements */
+    .achievements-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Contact */
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+    :root {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Navigation */
+    .navbar .container {
+        padding: 0.8rem 15px;
+    }
+
+    .nav-brand {
+        font-size: 1.2rem;
+    }
+
+    .nav-menu {
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .nav-link {
+        font-size: 0.8rem;
+    }
+
+    /* Hero */
+    .hero {
+        padding: 2rem 0;
+    }
+
+    .hero-title {
+        font-size: 1.8rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-description {
+        font-size: 0.95rem;
+    }
+
+    /* About */
+    .about {
+        padding: 2rem 0;
+    }
+
+    .core-competencies {
+        margin-top: 1rem;
+    }
+
+    .core-competencies li {
+        font-size: 0.9rem;
+    }
+
+    .about-stats {
+        flex-direction: column;
+    }
+
+    .stat-card {
+        padding: 1rem;
+    }
+
+    .stat-number {
+        font-size: 1.5rem;
+    }
+
+    /* Skills */
+    .skills {
+        padding: 2rem 0;
+    }
+
+    .skill-tags {
+        gap: 0.5rem;
+    }
+
+    .skill-tag {
+        font-size: 0.75rem;
+        padding: 0.4rem 0.7rem;
+    }
+
+    /* Projects */
+    .projects {
+        padding: 2rem 0;
+    }
+
+    .category-title {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .projects-grid {
+        gap: 1rem;
+    }
+
+    .project-card {
+        padding: 1rem;
+    }
+
+    .project-header h4 {
+        font-size: 1.1rem;
+    }
+
+    .tag {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.6rem;
+    }
+
+    .project-description {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+
+    .project-features li {
+        font-size: 0.85rem;
+    }
+
+    .project-tech {
+        font-size: 0.85rem;
+        padding: 0.8rem;
+    }
+
+    .project-links {
+        gap: 0.5rem;
+    }
+
+    .project-link {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    /* Education */
+    .education {
+        padding: 2rem 0;
+    }
+
+    .education-header h4 {
+        font-size: 1rem;
+    }
+
+    .cgpa {
+        padding: 0.2rem 0.6rem;
+        font-size: 0.75rem;
+    }
+
+    .institution {
+        font-size: 0.85rem;
+    }
+
+    .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cert-card {
+        padding: 1rem;
+    }
+
+    .cert-card h4 {
+        font-size: 0.95rem;
+    }
+
+    /* Achievements */
+    .achievements {
+        padding: 2rem 0;
+    }
+
+    .achievement-card {
+        padding: 1.5rem;
+    }
+
+    .achievement-icon {
+        font-size: 2.5rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .achievement-card h3 {
+        font-size: 1rem;
+    }
+
+    .achievement-card p {
+        font-size: 0.9rem;
+    }
+
+    /* Contact */
+    .contact {
+        padding: 2rem 0;
+    }
+
+    .contact-intro {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-info,
+    .social-links {
+        padding: 1.5rem;
+    }
+
+    .info-item {
+        margin-bottom: 1rem;
+    }
+
+    .social-link {
+        padding: 0.8rem;
+        font-size: 0.95rem;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 1.5rem;
+    }
+
+    .footer p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Extra small devices (< 360px) */
+@media (max-width: 360px) {
+    .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-brand {
+        font-size: 1rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card {
+        padding: 0.8rem;
+    }
+
+    .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Landscape orientation */
+@media (max-height: 600px) {
+    .hero {
+        min-height: auto;
+        padding: 2rem 0;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+}
+
+/* Print stylesheet */
+@media print {
+    .navbar,
+    .hero-buttons,
+    .contact,
+    .footer {
+        display: none;
+    }
+
+    body {
+        background: white;
+        color: black;
+    }
+
+    section {
+        page-break-inside: avoid;
+    }
+
+    .project-card,
+    .education-item,
+    .achievement-card {
+        page-break-inside: avoid;
+        border: 1px solid #ccc;
+    }
+}
+
+/* Dark mode (if needed in future) */
+@media (prefers-color-scheme: dark) {
+    /* Already implemented with CSS variables */
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: more) {
+    :root {
+        --primary-color: #4f46e5;
+        --text-primary: #ffffff;
+        --border-color: #ffffff;
+    }
+
+    .btn-primary {
+        border: 2px solid white;
+    }
+}

@@ -1,0 +1,254 @@
+{
+  "personal": {
+    "name": "Gunti Adhithya",
+    "title": "AI/ML & Data Science Enthusiast | Full Stack Developer",
+    "email": "adhithyagunti01@gmail.com",
+    "phone": "+91-7993630968",
+    "location": "Hyderabad, India",
+    "bio": "Recent B.Tech graduate in AI & Machine Learning with strong foundations in machine learning, data analysis, and full-stack development. Passionate about building intelligent systems and delivering innovative solutions.",
+    "profileImage": "assets/profile.jpg",
+    "summary": "AI/ML enthusiast and Full Stack Developer with hands-on experience in developing machine learning models, data analysis, and building responsive web applications. Currently learning advanced Data Science concepts at Codegnan Institute."
+  },
+  "education": [
+    {
+      "id": 1,
+      "degree": "B.Tech",
+      "field": "Artificial Intelligence & Machine Learning",
+      "institution": "CMR College of Engineering & Technology, Hyderabad",
+      "cgpa": "8.0/10",
+      "year": "2024"
+    },
+    {
+      "id": 2,
+      "degree": "Minor",
+      "field": "Data Science",
+      "institution": "CMR College of Engineering & Technology",
+      "cgpa": "8.3/10",
+      "year": "2024"
+    },
+    {
+      "id": 3,
+      "degree": "Diploma",
+      "field": "Computer Engineering",
+      "institution": "SVS Group of Institutions, Hanmakonda",
+      "cgpa": "7.3/10",
+      "year": "2021"
+    }
+  ],
+  "skills": {
+    "machinelearning": [
+      "Machine Learning Fundamentals",
+      "Classification",
+      "Feature Engineering",
+      "Anomaly Detection",
+      "Pattern Recognition",
+      "Scikit-learn"
+    ],
+    "deeplearning": [
+      "Deep Learning",
+      "Neural Networks",
+      "Text Classification"
+    ],
+    "nlp": [
+      "Natural Language Processing",
+      "Text Preprocessing",
+      "Tokenization",
+      "Feature Extraction",
+      "Sentiment Analysis"
+    ],
+    "ai": [
+      "AI Model Development",
+      "Generative AI Concepts",
+      "Prompt Engineering"
+    ],
+    "datasciencetech": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn"
+    ],
+    "datascience": [
+      "Data Cleaning",
+      "Data Analysis",
+      "Data Visualization",
+      "Data Interpretation",
+      "Excel"
+    ],
+    "frontend": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js"
+    ],
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "MongoDB Atlas"
+    ],
+    "deployment": [
+      "Git",
+      "GitHub",
+      "Vercel",
+      "Railway"
+    ]
+  },
+  "coreCompetencies": [
+    "Machine Learning Fundamentals",
+    "Problem Solving & Logical Thinking",
+    "Data Analysis & Interpretation",
+    "Communication & Team Collaboration",
+    "AI Model Development"
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "category": "AI/ML",
+      "title": "Depression Detection using Deep Learning",
+      "description": "Built a deep learning text classification model to detect depression indicators in social media text. Implemented NLP techniques including text preprocessing, tokenization, and feature extraction with neural networks for sentiment and mood analysis.",
+      "technologies": ["Python", "Deep Learning", "NLP", "TensorFlow/Keras"],
+      "tags": ["Deep Learning", "NLP", "Text Classification", "Mental Health"],
+      "features": [
+        "Text preprocessing and cleaning",
+        "Tokenization and embeddings",
+        "Feature extraction from text",
+        "Deep learning neural networks",
+        "Model evaluation and validation"
+      ],
+      "image": "assets/projects/depression-detection.jpg",
+      "github": "https://github.com/adhithya2322/Depression-Detection-Using-Deep-Learning",
+      "demo": null,
+      "status": "Completed"
+    },
+    {
+      "id": 2,
+      "category": "AI/ML",
+      "title": "Phishing Website Detection",
+      "description": "Developed a machine learning model to classify phishing and legitimate websites using URL and behavioral features. Implemented comprehensive data preprocessing, feature engineering, anomaly detection, and pattern recognition techniques to achieve high accuracy in detecting malicious websites.",
+      "technologies": ["Python", "Machine Learning", "Scikit-learn"],
+      "tags": ["Machine Learning", "Cybersecurity", "Classification"],
+      "features": [
+        "URL and behavioral feature extraction",
+        "Data preprocessing pipeline",
+        "Feature engineering techniques",
+        "Anomaly detection algorithms",
+        "Pattern recognition for classification"
+      ],
+      "image": "assets/projects/phishing-detection.jpg",
+      "github": "https://github.com/adhithya2322/Phishcatcher",
+      "demo": null,
+      "status": "Completed"
+    },
+    {
+      "id": 3,
+      "category": "Data Science",
+      "title": "Customer Sentiment Analysis",
+      "description": "Developed a sentiment analysis system to classify customer feedback into positive, negative, and neutral categories. Leveraged NLP techniques and data science workflows to generate actionable insights for business decision-making.",
+      "technologies": ["Python", "Pandas", "NLP", "Scikit-learn"],
+      "tags": ["Data Science", "NLP", "Sentiment Analysis", "Business Intelligence"],
+      "features": [
+        "Sentiment classification (Positive/Negative/Neutral)",
+        "Large dataset processing",
+        "Feature extraction and vectorization",
+        "Insight generation for business decisions",
+        "Data visualization of results"
+      ],
+      "image": "assets/projects/sentiment-analysis.jpg",
+      "github": "https://github.com/adhithya2322/Sentiment-Analysis",
+      "demo": null,
+      "status": "Completed"
+    },
+    {
+      "id": 4,
+      "category": "Full Stack",
+      "title": "Team Task Manager",
+      "description": "A comprehensive full-stack web application for team task management. Features include user authentication with JWT, task CRUD operations, real-time status tracking, and a responsive UI built with React. Deployed on Vercel (frontend) and Railway (backend).",
+      "technologies": ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "MongoDB Atlas"],
+      "tags": ["Full Stack", "MERN", "Web Application", "Task Management"],
+      "features": [
+        "User registration and login",
+        "JWT authentication",
+        "Create, update, and delete tasks",
+        "Task status tracking",
+        "User-friendly responsive UI",
+        "Real-time updates"
+      ],
+      "image": "assets/projects/task-manager.jpg",
+      "github": "https://github.com/adhithya2322/team-task-manager",
+      "demo": "https://team-task-manager-oztv-git-main-adhithya-s-projects.vercel.app/",
+      "liveApi": "https://team-task-manager-production-997b.up.railway.app",
+      "database": "MongoDB Atlas",
+      "status": "Live"
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "title": "Artificial Intelligence Primer Certification",
+      "issuer": "Infosys Springboard",
+      "date": "2026",
+      "credentialUrl": null,
+      "image": "assets/certifications/infosys.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Salesforce Certified Agentforce Specialist",
+      "issuer": "Salesforce",
+      "date": "2025",
+      "credentialUrl": null,
+      "image": "assets/certifications/salesforce.jpg"
+    },
+    {
+      "id": 3,
+      "title": "AWS Academy Cloud Foundations",
+      "issuer": "AWS Academy",
+      "date": "2024",
+      "credentialUrl": null,
+      "image": "assets/certifications/aws.jpg"
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "title": "100% Tuition Fee Scholarship",
+      "description": "Awarded 100% tuition fee scholarship for B.Tech based on entrance exam performance and merit eligibility.",
+      "type": "Merit Scholarship",
+      "year": "2020-2024"
+    },
+    {
+      "id": 2,
+      "title": "80% Tuition Fee Scholarship",
+      "description": "Received 80% tuition fee scholarship for Associate Degree based on entrance exam performance and merit eligibility.",
+      "type": "Merit Scholarship",
+      "year": "2019-2021"
+    },
+    {
+      "id": 3,
+      "title": "Clean-up Community Project",
+      "description": "Collaborated on a community clean-up initiative in Hanmakonda, contributing to a cleaner community and fostering stronger connections with neighbors.",
+      "type": "Community Service",
+      "year": "2019-2022"
+    }
+  ],
+  "currentLearning": [
+    {
+      "id": 1,
+      "title": "Advanced Data Science",
+      "institution": "Codegnan Institute",
+      "status": "In Progress",
+      "topics": [
+        "Advanced ML Algorithms",
+        "Feature Engineering",
+        "Model Optimization",
+        "Real-world Data Science Projects"
+      ]
+    }
+  ],
+  "social": {
+    "github": "https://github.com/adhithya2322",
+    "linkedin": "https://www.linkedin.com/in/adhithyagunti",
+    "email": "adhithyagunti01@gmail.com",
+    "portfolio": "https://your-portfolio.com"
+  }
+}
